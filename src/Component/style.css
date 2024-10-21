@@ -1,0 +1,62 @@
+.cart-conteinar{
+    border: 2px solid #228B22;
+    border-radius: 10px;
+    padding: 0px 10px; 
+
+}
+
+.cart{
+    
+    border:2px solid #228B22;
+    border-radius:15px;
+    padding:10px;
+    text-align:center;
+    /* margin-top:20px */
+}
+ button{
+    background:#228B22;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.conteinar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    margin-top:20px;
+}
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+.product-table th,
+.product-table td {
+    border: 3px solid #228B22;
+    
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #228B22;
+}
+
+/* .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+.product-image {
+    width: 50px; /* Set a fixed width for the images */
+    height: auto; /* Keep the aspect ratio */
+}
+
+
+/* <div className="cart-conteinar" style={{display:'flex',justifyContent:'space-between',justifyItems:'center'}}>
+                <h2> Bottle Zone  {products.length} Items Product Available</h2>
+                <h2><button >Total Add Cart {cart.length} </button></h2>
+            </div> */
